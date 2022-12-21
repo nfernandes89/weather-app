@@ -50,7 +50,13 @@ function App() {
           <h1>Check the weather of your city:</h1>
           <div className="search-loc">
             <input
+              type="text"
               onChange={handleChange}
+              onKeyPress={(e) => {
+                if (e.key === "Enter") {
+                  handleSearch();
+                }
+              }}
               className="form-control"
               value={city}
               placeholder="🔎 Search location"
@@ -127,6 +133,6 @@ function App() {
       </main>
     </div>
   );
-}
+};
 
 export default App;
