@@ -11,10 +11,11 @@ padding: 20px;
 }
 
 body {
-  background: url("https://images.unsplash.com/photo-1517483000871-1dbf64a6e1c6");
-  // background-color: linear-gradient(268deg, rgb(123, 185, 252), transparent);
+  background-image: url("https://images.unsplash.com/photo-1517483000871-1dbf64a6e1c6");
+  background-color: linear-gradient(268deg, rgb(123, 185, 252), transparent);
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
 }
 
 .navbar {
