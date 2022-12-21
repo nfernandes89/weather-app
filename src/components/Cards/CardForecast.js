@@ -16,7 +16,7 @@ const CardForecast = ({
       <p>
         Temperature: {minTemp}ºC - {maxTemp}ºC
       </p>
-      <p>Probability of raining: {precipitProb}%</p>
+      <p>Probability of rain: {precipitProb}%</p>
     </div>
   );
 };
