@@ -1,3 +1,8 @@
+# Weather App (with React)
+
+<p>Project made during de Full Stack Web Development course in EDIT.</p>
+<p>Technologies and tools used: HTML, SCSS and JavaScript.</p>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
